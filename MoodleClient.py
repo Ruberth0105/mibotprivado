@@ -113,7 +113,7 @@ class MoodleClient(object):
             nodefiles = nodetd[1].find_all('a')
             nfilelist = []
             for f in nodefiles:
-                directurl = str(f['href']).replace('pluginfile.php','webservice/pluginfile.php') + '&token=' + self.userdata['token']
+                directurl = str(f['href']).replace('draftfile.php','webservice/draftfile.php') + '&token=' + self.userdata['token']
                 nfilelist.append({'name':f.next,'url':directurl})
             list.append({'name':evname,'desc':'','id':evid,'url':evurl,'files':nfilelist})
 
