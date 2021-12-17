@@ -1,7 +1,7 @@
 from MoodleClient import MoodleClient
 
 BOT_TOKEN = '5032468364:AAEbzt4hfUtxJpxuGhNCUcAIZMADvjEL6UM'
-MAX_ZIP_SIZE = 50
+MAX_ZIP_SIZE = 250
 ACCES_USERS = ['Ruuuberth']
 CREDENTIALS = {'username':'ruuuberth','password':'Ruberth21*'}
 CACHE = {}
